@@ -11,7 +11,13 @@ def join_nested_strings(src)
       if src[outer_index][inner_index].is_a?(String)
         joined_strings = joined_strings + src[outer_index][inner_index]
       end
+      
+      inner_index += 1
     end
+    
+    outer_index += 1
   end
+  
+  joined_strings
   
 end
