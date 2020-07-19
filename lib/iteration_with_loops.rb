@@ -9,7 +9,7 @@ def join_nested_strings(src)
     
     while inner_index < src[outer_index].length do
       if src[outer_index][inner_index].is_a?(String)
-        joined_strings = joined_strings + " " src[outer_index][inner_index]
+        joined_strings = joined_strings + " " + src[outer_index][inner_index]
       end
       
       inner_index += 1
