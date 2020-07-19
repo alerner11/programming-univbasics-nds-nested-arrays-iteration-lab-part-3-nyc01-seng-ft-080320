@@ -8,7 +8,9 @@ def join_nested_strings(src)
     inner_index = 0
     
     while inner_index < src[outer_index].length do
-      if src[outer_index][inner_index].is_a? String
+      if src[outer_index][inner_index].is_a?(String)
+        
+      end
     end
   end
   
